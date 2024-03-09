@@ -65,7 +65,7 @@ p {
 }
 
 blockquote {
-  border-left: 5px solid turquoise;
+  border-left: 5px solid #F6995C;
   padding: 15px 0px 15px 15px;
   background-color: #f4f4f4;
   border-radius: 4px;
@@ -94,7 +94,7 @@ ol p {
 }
 
 a {
-  color: turquoise;
+  color: #F6995C;
 }
 
 a:hover {
@@ -133,7 +133,7 @@ a:visited {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: turquoise;
+  background-color: #51829B;
   color: white;
 }
 
@@ -204,7 +204,7 @@ hr {
 }
 
 .fork-button {
-  background-color: turquoise;
+  background-color: #F6995C;
   border-radius: 10px;
   border: none;
   color: white;
@@ -213,7 +213,7 @@ hr {
   cursor: pointer;
 }
 .fork-button:hover {
-  background-color: mediumturquoise;
+  background-color: #EADFB4 ;
 }
 
 .author-container {
@@ -296,10 +296,10 @@ hr {
 
 .follow-button {
   display: inline-block;
-  border: 1px solid turquoise;
+  border: 1px solid #F6995C;
   border-radius: 4px;
   padding: 2px 10px;
-  color: turquoise;
+  color: #F6995C;
   font-size: 10pt;
   margin-bottom: 2px;
   margin-left: 4px;
@@ -376,3 +376,53 @@ hr {
   color: #888;
   padding-top: 0px;
 }
+
+/* Styles for the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button style */
+.dropbtn {
+  background-color: #51829B;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #51829B;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #9BB0C1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  left: auto; /* Align to the left edge */
+  right: 0; /* Adjust if necessary */
+}
+
+
+
