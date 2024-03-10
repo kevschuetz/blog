@@ -8,4 +8,10 @@ export namespace globals {
   export const url = '';
   export const accentColor = '#F6995C';
   export const googleAnalyticsId = ``; // e.g. 'UA-999999999-1'
+  export const categories = [
+    {
+      id: 1,
+      name: "Design Patterns",
+    }
+  ]
 }

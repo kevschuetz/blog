@@ -23,16 +23,13 @@ const Home = (props: {
       </div>
 
       <div className="section">
-        <h2>Stories</h2>
+          <h2>Stories</h2>
         <div className="post-card-container">
           {props.posts.map((post, j) => {
             return <PostCard post={post} key={j} />;
           })}
         </div>
       </div>
-
-
-
     </div>
   );
 };

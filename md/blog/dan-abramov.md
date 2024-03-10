@@ -5,6 +5,7 @@ datePublished: 1594425078471
 author: Colin McDonnell
 tags:
   - Dan Abramov
+  - React
 authorPhoto: /img/profile.jpg
 bannerPhoto: /img/danabramov.png
 thumbnailPhoto: /img/danabramov_thumb.png

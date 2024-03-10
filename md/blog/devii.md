@@ -7,6 +7,8 @@ author: Ben Bitdiddle
 tags:
   - Devii
   - Blogs
+  - React
+  - Design Patterns
 authorPhoto: /img/profile.jpg
 bannerPhoto: /img/brook.jpg
 thumbnailPhoto: /img/brook.jpg
