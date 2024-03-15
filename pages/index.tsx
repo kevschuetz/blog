@@ -13,12 +13,12 @@ const Home = (props: {
   return (
     <div className="content">
       <Head>
-        <title>DevDoodle Diaries</title>
+        <title>Backend Wiki</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="introduction">
-        <h1>About</h1>
+          <h4>Welcome to the Backend Wiki: a comprehensive collection of timeless concepts!</h4>
         <Markdown source={props.introduction} />
       </div>
 
